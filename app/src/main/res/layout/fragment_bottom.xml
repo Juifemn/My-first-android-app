@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".BottomFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shouye"
+            android:background="@color/colorTranspanrement"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:id="@+id/fragment_b1"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/erji"
+            android:background="@color/colorTranspanrement"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:id="@+id/fragment_b2"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bianji2"
+            android:background="@color/colorTranspanrement"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:id="@+id/fragment_b3"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/personal"
+            android:background="@color/colorTranspanrement"
+            android:scaleType="centerInside"
+            android:layout_weight="1"
+            android:id="@+id/fragment_b4"/>
+    </LinearLayout>
+
+</LinearLayout>

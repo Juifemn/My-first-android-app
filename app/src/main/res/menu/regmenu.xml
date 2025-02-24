@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="界面风格"
+        android:id="@+id/activity_style">
+        <menu>
+            <item
+                android:title="活力"
+                android:id="@+id/style_red"/>
+            <item
+                android:title="清新"
+                android:id="@+id/style_green"/>
+            <item
+                android:title="平静"
+                android:id="@+id/style_blue"/>
+        </menu>
+    </item>
+    <item
+        android:title="版本信息"
+        android:id="@+id/app_version"/>
+</menu>

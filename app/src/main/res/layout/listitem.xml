@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:id="@+id/list_id"
+        android:text="id"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:id="@+id/list_date"
+        android:text="data"/>
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:id="@+id/list_time"
+        android:text="time"/>
+
+    <TextView
+        android:id="@+id/list_title"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:text="title" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:id="@+id/list_state"
+        android:text="state"/>
+
+</LinearLayout>
